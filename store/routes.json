@@ -1,0 +1,21 @@
+{
+  "store.custom#about-us": {
+    "path": "/sobre-nos"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contato": {
+    "path": "/contato"
+  },
+  "store.custom#trocas-devolucoes": {
+    "path": "/trocas-devolucoes"
+  },
+  "store.custom#politica-privacidade":{
+    "path": "/politica-privacidade"
+  },
+  "store.custom#manuais":{
+    "path": "/manuais"
+  }
+
+}

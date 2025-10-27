@@ -1,0 +1,46 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us"
+    ]
+  },
+  "flex-layout.row#about-us": {
+    "props": {
+      "blockClass": "contato"
+    },
+    "children": [
+      "flex-layout.col#coluna-quemsomos"
+    ]
+  },
+  "flex-layout.col#coluna-quemsomos": {
+    "props": {
+      "blockClass": "coluna-coluna"
+    },
+    "children": [
+      "flex-layout.row#quem-somos-contato"
+
+    ]
+  },
+  "flex-layout.row#quem-somos-contato":{
+    "props": {
+      "blockClass": "linha-contato"
+    },
+    "children": [
+      "rich-text#titulo-quem-somos",
+      "rich-text#quem-somos-conteudo"
+    ]
+
+  },
+  "rich-text#titulo-quem-somos": {
+    "props": {
+      "text": "## Quem somos",
+      "blockClass": "titulo-contato"
+    }
+  },
+  "rich-text#quem-somos-conteudo": {
+    "props": {
+      "text": "Com sede própria instalada na cidade de Pinhais, junto à região metropolitana de Curitiba – Paraná, a Stermax atua como fabricante de equipamentos para a área de biossegurança desde 1991, completando 30 anos de história.\nA empresa conta com ampla experiência e know-how para o desenvolvimento e industrialização de produtos que atendem às necessidades do mercado para os segmentos: médico, odontológico, veterinário, laboratorial, beleza e estética, tatuagem e body piercing.\nA Stermax é uma empresa socialmente responsável, que valoriza um relacionamento justo e correto com seus clientes, com seus recursos humanos internos, com o meio ambiente, com o cumprimento das leis e com a comunidade em geral.",
+      "blockClass": "texto-horarios"
+    }
+  }
+}

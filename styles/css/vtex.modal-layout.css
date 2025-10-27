@@ -1,0 +1,169 @@
+/* CSS ROLETA  */
+.closeIcon--roleta-header{
+  width: 20px;
+}
+
+.headerContainer--roleta-header {
+  position: relative;
+  top: 70px;
+  width: 1080px;
+  border-bottom: none;
+}
+
+.container--form-roleta {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: #0000;
+}
+
+.paper--form-roleta {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-image: url(assets/roleta/background-roleta-stermaxh.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.closeButton--botao-fechar-roleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  color: white;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.closeButtonLabel--botao-fechar-roleta {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS ROLETA  */
+
+@media screen and (max-width: 1024px) {
+
+  /* CSS ROLETA ABAIXO  */
+  .closeButton--botao-fechar-roleta {
+    right: 15px;
+  }
+
+  .paper--form-roleta {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  /* CSS ROLETA ACIMA  */
+}
+
+@media screen and (max-width: 360px) {
+
+  /* CSS ROLETA ABAIXO  */
+  .paper--form-roleta {
+    padding-bottom: 0;
+  }
+
+  /* CSS ROLETA ACIMA  */
+}
+
+@media screen and (min-width: 40em) {
+  .paper--quickview {
+    height: 260px;
+    width: 580px;
+  }
+
+  .actionsContainer--quickview {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .paper--quickview {
+    height: 450px;
+    width: 900px;
+  }
+}
+
+
+@media screen and (min-width: 75em) {
+  .paper--quickview {
+    width: calc(100% - 4rem);
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 82em) {
+  .actionsContainer--quickview {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+}
+
+.paper--quickview {
+  min-width: 320px;
+  max-width: 96rem;
+}
+
+.headerContainer--quickview {
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.actionsContainer--quickview {
+  height: 100%;
+  width: 100%;
+  transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: transparent;
+  box-shadow: -4px 0px 27px -12px transparent;
+}
+
+.actionsContentWrapper {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #aaa;
+  padding-top: 1.5rem;
+}
+
+.contentContainer--quickviewContent {
+  padding: 2.5rem 0 2.5rem 2rem;
+  overflow-x: hidden;
+}
+
+.triggerContainer--quickview {
+  padding: .75rem;
+}
+
+.triggerContainer {
+  outline: none;
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
+  border-top-color: rgb(238, 238, 238);
+  box-shadow: -4px 0px 27px -12px rgba(0, 0, 0, 0.64);
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
+  border-top-color: transparent;
+}
+
+.closeButton {
+  padding-right: 1rem;
+}
+
+.paper--product-gifts {
+  padding: 1.5rem;
+}

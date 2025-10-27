@@ -1,0 +1,628 @@
+/* CSS ROLETA ABAIXO */
+.paragraph--titulo-regras-roleta{
+  font-family: "jost-regular";
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFFB2;
+}
+
+.container--subtitulo-nova-roleta,
+.container--titulo-nova-roleta {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--titulo-nova-roleta {
+  color: #FFFFFF;
+  font-family: "fraunces-regular";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--subtitulo-nova-roleta {
+  color: #FFFFFF;
+  font-family: "jost-regular";
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.container--titulo-form-roleta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+}
+
+.wrapper--titulo-form-roleta {
+  color: #ffffff;
+  font-size: 40px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.paragraph--titulo-form-roleta {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper--titulo-form-roleta {
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+}
+
+.paragraph--confirm-form-roleta {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "fraunces-regular";
+  display: none;
+}
+
+.container--titulo-regras-roleta {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.container--texto-rules-roleta {
+  padding-top: 10px;
+}
+
+.paragraph--texto-rules-roleta {
+  margin: 0;
+  font-family: "jost-regular";
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFFB2;
+}
+
+
+
+/* CSS ROLETA ACIMA */
+
+
+.paragraph--titulo-footer-bandeiras,
+.paragraph--titulo-textos-horario,
+.paragraph--textos-horarios,
+.paragraph--textos-contatos {
+  white-space: nowrap !important;
+}
+
+/* footer desktop  */
+
+/* footer */
+
+.container--texto-final-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paragraph--texto-final-footer {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "fraunces-regular";
+  font-size: 12px;
+}
+
+.link--textos-contatos {
+  text-decoration: none;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.paragraph--textos-horarios {
+  margin: 0;
+  margin-left: 0 !important;
+}
+
+.paragraph--textos-horarios,
+.paragraph--textos-contatos {
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-left: 11.55px;
+
+}
+
+.paragraph--titulo-footer-bandeiras,
+.paragraph--titulo-textos-horarios,
+.paragraph--titulo-fale-com {
+  font-family: "domine-semibold";
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: start;
+  text-transform: capitalize;
+
+}
+
+.container--endereco-footer {
+  max-width: 273px;
+}
+
+.paragraph--endereco-footer {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* footer */
+
+.paragraph--subtitulos-textos-modelos {
+  font-family: var(--fonte-primaria);
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.paragraph--titulos-textos-modelos {
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.container--subtitulos-textos-modelos {
+  max-width: 145px;
+}
+
+.paragraph--subtitulos-textos-modelos-75l {
+  margin-bottom: 127px;
+}
+
+.paragraph--titulo-modelos {
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  color: #4C4A48;
+  font-size: 40px;
+  margin: 0;
+}
+
+.paragraph--subtitulo-modelos {
+  font-family: var(--fonte-primaria);
+  font-weight: 400;
+  color: #747474;
+  font-size: 32px;
+  margin: 0;
+}
+
+.paragraph--rich-text-topo {
+  margin: 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container--rich-text-topo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--titulo-manuais {
+  font-weight: bold;
+}
+
+.link--texto-horarios {
+  text-decoration: none;
+  color: white;
+}
+
+.paragraph--texto-horarios,
+.paragraph--texto-contato,
+.heading--titulo-contato {
+  color: white;
+}
+
+.paragraph--rich-text-produtos-relacionados {
+  color: #5C5A58;
+  font-family: var(--fonte-secundaria);
+  font-size: 60px;
+}
+
+.wrapper--titulo-descricao {
+  font-family: var(--fonte-secundaria);
+  font-size: 48px;
+  color: #5C5A58;
+}
+
+.paragraph--titulo-descricao {
+  margin: 0 50px;
+  padding: 0;
+}
+
+.container--texto-numeros {
+  font-family: var(--fonte-secundaria);
+}
+
+.link--texto-numeros {
+  text-decoration: none;
+  color: var(--cinza-medio);
+}
+
+.paragraph--texto-numeros {
+  margin: 0;
+  color: var(--cinza-medio);
+}
+
+.container--linha-texto {
+  margin-bottom: 30px;
+}
+
+.paragraph--linha-texto {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonte-secundaria);
+  font-size: 15px;
+  color: var(--cinza-medio);
+}
+
+.link--texto-trocas-devolucoes {
+  text-decoration: none;
+  color: white;
+}
+
+
+.container--texto-trocas-devolucoes,
+.container--titulo-trocas-devolucoes {
+  color: white;
+}
+
+.paragraph--contatos-footer-titulo {
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+  margin-top: 63px;
+  color: var(--cinza-medio);
+}
+
+.paragraph--texto-digitando {
+  color: #4C7593;
+  font-size: 24px;
+  font-family: "fraunces-regular";
+  margin-top: 5px;
+}
+
+.container--texto-digitando {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container--subtitulo-banner-esquerdo {
+  text-align: right;
+}
+
+.container--titulo-banner-direito,
+.container--subtitulo-banner-direito {
+  text-align: left;
+}
+
+.paragraph--subtitulo-banner-direito,
+.paragraph--titulo-banner-direito,
+.paragraph--titulo-banner-esquerdo,
+.paragraph--subtitulo-banner-direito,
+.paragraph--subtitulo-banner-esquerdo {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+
+.paragraph--subtitulo-banner-esquerdo {
+  font-size: 16px;
+  font-family: "jost-regular";
+  font-weight: 400;
+  color: #818181;
+  margin-top: 20px;
+}
+
+.paragraph--titulo-banner-direito,
+.paragraph--titulo-banner-esquerdo {
+  font-family: "fraunces-regular";
+  font-size: 36px;
+  margin-top: 40px;
+  line-height: normal;
+  font-weight: 400;
+  color: #636363;
+}
+
+.wrapper--titulo-banner-esquerdo,
+.wrapper--titulo-banner-esquerdo {
+  text-align: right;
+
+}
+
+.paragraph--titulo-banner-secundario {
+  background-color: #1F7ECA;
+  padding: 15px;
+  border-radius: 166px;
+  color: white;
+  font-size: 27px;
+  font-family: "fraunces-regular";
+  margin-right: 50px;
+}
+
+.container--titulo-banner-secundario {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  bottom: 58px;
+}
+
+.wrapper--deals,
+.strong--deals {
+  font-family: "jost-regular";
+}
+
+.container--deals {
+  color: #868181;
+  text-align: center;
+  justify-content: center;
+  font-size: 13px;
+  font-family: "jost";
+}
+
+.container--shelfTitle {
+  color: #F6F6F6;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  text-align: left;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+.container--footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  /* CSS ROLETA ABAIXO */
+  .container--titulo-regras-roleta {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container--texto-rules-roleta {
+    width: fit-content;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .wrapper--titulo-form-roleta {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .paragraph--confirm-form-roleta {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .container--confirm-form-roleta {
+    text-align: center;
+  }
+
+
+  /* CSS ROLETA ACIMA */
+
+  .paragraph--rich-text-produtos-relacionados {
+    font-size: 1.8rem;
+  }
+
+  .paragraph--titulo-descricao {
+    margin: 0 20px;
+    padding: 10px;
+  }
+
+  .wrapper--titulo-descricao {
+    font-size: 1rem;
+  }
+
+  .container--deals {
+    font-size: 6px;
+  }
+
+  .paragraph--deals {
+    margin: 0 0 0 10px;
+  }
+
+  .paragraph--titulo-banner-secundario {
+    padding: 10px;
+    font-size: 8px;
+    margin-right: 0px;
+  }
+
+  .container--titulo-banner-secundario {
+    bottom: 20px;
+  }
+
+  .paragraph--titulo-banner-direito,
+  .paragraph--titulo-banner-esquerdo {
+    font-size: 18px;
+  }
+
+  .paragraph--subtitulo-banner-direito,
+  .paragraph--subtitulo-banner-esquerdo {
+    font-size: 10px;
+  }
+
+  .wrapper--texto-digitando {
+    font-size: 1rem;
+  }
+
+  .paragraph--contatos-footer-titulo {
+    font-size: 12px;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+
+  .paragraph--footer-titulo {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .paragraph--linha-texto,
+  .container--texto-numeros {
+    font-size: 10px;
+  }
+
+
+  .flexColChild--container-footer-mobile {
+    height: fit-content !important;
+  }
+
+  .wrapper--footer-links {
+    padding: 0 5px;
+  }
+
+  .paragraph--subtitulos-textos-modelos-75 {
+    margin-bottom: unset;
+  }
+
+  .paragraph--titulos-textos-modelos {
+    margin: 50px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .paragraph--subtitulos-textos-modelos {
+    font-size: 10px;
+  }
+
+  .paragraph--titulo-modelos {
+    font-size: 12px;
+  }
+
+  .paragraph--subtitulo-modelos {
+    font-size: 9px;
+  }
+
+  .paragraph--texto-digitando {
+    font-size: 12px;
+  }
+
+}
+
+/* footer desktop  */
+@media screen and (min-width: 1000px) {
+  .container--endereco-footer {
+    border-top: 1px solid white;
+  }
+
+  .paragraph--endereco-footer {
+    text-align: start !important;
+  }
+
+  .paragraph--texto-final-footer {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .paragraph--texto-rules-roleta {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  .wrapper--confirm-form-roleta {
+    display: flex;
+  }
+}

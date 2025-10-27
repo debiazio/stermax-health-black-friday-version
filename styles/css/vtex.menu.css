@@ -1,0 +1,26 @@
+.menuContainerNav {
+  width: 100%;
+}
+
+.menuContainer {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+}
+
+.styledLinkContent {
+  color: var(--paleta);
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .styledLinkContent {
+    font-size: 6px;
+  }
+
+  .styledLinkContainer{
+    margin: 0 2px;
+    padding: 0;
+  }
+}
