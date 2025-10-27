@@ -5,7 +5,7 @@
       "flex-layout.row#banner-stermaxHealth-personas",
       "responsive-layout.mobile#deals-mobile",
       "flex-layout.row#deals",
-      // "modal-trigger#roleta",
+      "modal-trigger#roleta",
       "__fold__",
       "flex-layout.row#banner-segundo",
       "flex-layout.row#banner-modelos",

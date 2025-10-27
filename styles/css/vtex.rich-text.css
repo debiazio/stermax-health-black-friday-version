@@ -483,6 +483,8 @@
     padding-left: 0;
     text-align: center;
     padding-top: 5px;
+    max-width: 80vw;
+    padding: 0 25px;
   }
 
   .wrapper--titulo-form-roleta {
@@ -596,6 +598,13 @@
 
   .paragraph--texto-digitando {
     font-size: 12px;
+  }
+
+    .paragraph--texto-rules-roleta {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
   }
 
 }

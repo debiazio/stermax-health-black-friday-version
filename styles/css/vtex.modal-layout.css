@@ -50,23 +50,7 @@
 
 /* CSS ROLETA  */
 
-@media screen and (max-width: 1024px) {
 
-  /* CSS ROLETA ABAIXO  */
-  .closeButton--botao-fechar-roleta {
-    right: 15px;
-  }
-
-  .paper--form-roleta {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding-bottom: 10px;
-  }
-
-  /* CSS ROLETA ACIMA  */
-}
 
 @media screen and (max-width: 360px) {
 
@@ -166,4 +150,23 @@
 
 .paper--product-gifts {
   padding: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+  /* CSS ROLETA ABAIXO  */
+  .closeButton--botao-fechar-roleta {
+    right: 15px;
+  }
+
+  .paper--form-roleta {
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  /* CSS ROLETA ACIMA  */
 }

@@ -42,6 +42,12 @@
   align-items: center;
 }
 
+.flexColChild--coluna-esquerda-roleta {
+  width: 444px;
+  display: flex;
+  flex-direction: column;
+}
+
 .flexRow--img-trigger-roleta {
   display: flex;
   background-color: black;
@@ -58,11 +64,7 @@
 
 
 
-.flexColChild--coluna-esquerda-roleta {
-  width: 444px;
-  display: flex;
-  flex-direction: column;
-}
+
 
 /* CSS ROLETA ACIMA */
 
@@ -87,6 +89,7 @@
   }
 
   .flexColChild--coluna-esquerda-roleta {
+    width: unset;
     display: flex;
     justify-content: center;
   }
@@ -103,9 +106,8 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 540px;
     position: relative;
-    bottom: -102px;
     padding-bottom: 15px;
     padding: 0;
   }
@@ -1066,5 +1068,9 @@
   .flexRowContent--lado-direito,
   .flexRow--linha-titulo-assistencia {
     margin: 0 0 0 10px;
+  }
+
+  .flexColChild--coluna-esquerda-roleta .flexRow--linha-submit{
+    width: 60%;
   }
 }
