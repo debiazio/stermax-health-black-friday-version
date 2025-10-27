@@ -1070,7 +1070,14 @@
     margin: 0 0 0 10px;
   }
 
-  .flexColChild--coluna-esquerda-roleta .flexRow--linha-submit{
+  .flexColChild--coluna-esquerda-roleta .flexRow--linha-submit {
     width: 60%;
+  }
+
+  .flexCol--colunas-menores-21l,
+  .flexCol--coluna-menores-modelos-30l,
+  .flexCol--coluna-menores-modelos-40l,
+  .flexCol--coluna-menores-modelos-60l {
+    background-position-y: 120px;
   }
 }

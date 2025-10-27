@@ -168,5 +168,12 @@
     padding-bottom: 10px;
   }
 
+  .headerContainer--roleta-header{
+    position: unset;
+    /* top: 70px; */
+    width: 100%;
+    border-bottom: none;
+  }
+
   /* CSS ROLETA ACIMA  */
 }
