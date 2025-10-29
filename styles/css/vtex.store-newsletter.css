@@ -34,6 +34,7 @@
 .nameInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group),
 .emailInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group) {
   border: none;
+  height: 30px;
 }
 
 .phoneInputContainer--inputs-form-roleta,
