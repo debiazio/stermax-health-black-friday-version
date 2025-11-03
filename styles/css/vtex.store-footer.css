@@ -1,5 +1,5 @@
 
 .footerLayout{
-  background-color: #1F80CA;
+  background-color: var(--footer);
 }
 

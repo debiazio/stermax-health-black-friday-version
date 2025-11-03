@@ -72,7 +72,7 @@
   "image#banner-personas": {
     "props": {
       "blockClass": "imagem-personas",
-      "src": "assets/personas-stermaxHealth-unificado.webp",
+      "src": "assets/home/home-black-friday/pessoas-blackfriday.webp",
       "alt": "Público StermaxHealth",
       "title": "Público StermaxHealth",
       "fullWidth": true
@@ -160,7 +160,7 @@
       "rich-text#deal6"
     ]
   },
-    //banner "não comprometa sua saúde..."
+  //banner "não comprometa sua saúde..."
   "flex-layout.row#banner-segundo": {
     "props": {
       "blockClass": "secao-banner-segundo",
@@ -174,14 +174,29 @@
   },
   "responsive-layout.desktop#banner-segundo": {
     "children": [
-      "image#banner-segundo"
+      "flex-layout.row#linha-gatilho-medo"
     ]
   },
-  "image#banner-segundo": {
+  "flex-layout.row#linha-gatilho-medo": {
     "props": {
-      "src": "assets/gatilho.webp",
-      "alt": "Banner não comprometa sua saúde",
-      "blockClass": "imagem-banner-segundo"
+      "blockClass": "linha-gatilho-medo",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-gatilho-medo",
+      "rich-text#subtitulo-gatilho-medo"
+    ]
+  },
+  "rich-text#titulo-gatilho-medo": {
+    "props": {
+      "blockClass": "texto-titulo-gatilho-medo",
+      "text": "Não comprometa a saúde dos seus pacientes e o futuro da sua clínica!"
+    }
+  },
+  "rich-text#subtitulo-gatilho-medo": {
+    "props": {
+      "blockClass": "texto-subtitulo-gatilho-medo",
+      "text": "Sem a esterilização correta, o risco de contaminações e doenças aumenta. Além disso, operar fora das normas Anvisa pode levar à interdição do seu consultório ou clínica, colocando em risco seu trabalho e reputação!"
     }
   },
   "responsive-layout.mobile#banner-segundo": {
@@ -667,7 +682,7 @@
   "link#fale-com-especialista": {
     "props": {
       "href": "https://wa.me/5541999710062",
-      "label": "FALE COM UM ESPECIALISTA",
+      "label": "FALE COM UM CONSULTOR",
       "blockClass": "link-banner-quarto"
     }
   },
@@ -684,7 +699,7 @@
   "image#mapa-brasil": {
     "props": {
       "blockClass": "mapa-brasil",
-      "src": "assets/home/brasil-mapa.webp",
+      "src": "assets/home/home-black-friday/mapa-brasil-blackf.webp",
       "alt": "Mapa do Brasil"
     }
   },
@@ -711,7 +726,10 @@
   },
   "flex-layout.row#textos-assistencia-dir": {
     "props": {
-      "blockClass": ["linha-titulo-assistencia","lado-direito"],
+      "blockClass": [
+        "linha-titulo-assistencia",
+        "lado-direito"
+      ],
       "colSizing": "auto"
     },
     "children": [
@@ -730,24 +748,28 @@
       "rich-text#subtitulo-dir"
     ]
   },
-  "flex-layout.row#imagem-assistencia":{
+  "flex-layout.row#imagem-assistencia": {
     "props": {
-      "blockClass": ["linha-imagem-mapa", "linha-assist-img"],
+      "blockClass": [
+        "linha-imagem-mapa",
+        "linha-assist-img"
+      ],
       "colSizing": "auto"
     },
     "children": [
       "image#assistencia"
     ]
   },
-  "image#assistencia":{
+  "image#assistencia": {
     "props": {
-      "src": "assets/home/Group 3.webp",
-      "blockClass": ["mapa-brasil", "img-assist"],
+      "src": "assets/home/home-black-friday/caixas-black.webp",
+      "blockClass": [
+        "mapa-brasil",
+        "img-assist"
+      ],
       "alt": "Assistência"
     }
   },
-
-
   "rich-text#titulo-dir": {
     "props": {
       "text": "Estoques limitados \n em pronta entrega",
@@ -760,11 +782,6 @@
       "blockClass": "subtitulo-banner-esquerdo"
     }
   },
-
-
-
-
-
   "flex-layout.row#shelf": {
     "children": [
       "list-context.product-list#demo1"

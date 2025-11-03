@@ -30,11 +30,11 @@
   text-decoration: none;
   font-family: "fraunces-regular";
   font-size: 20px;
-  color: #717171;
+  color: var(--fontes);
   border-radius: 85px;
   padding: 10px 25px;
   text-wrap-mode: nowrap;
-  background-color: white;
+  background-color: var(--header);
 }
 
 .link--link-ver-mais-autoclaves {

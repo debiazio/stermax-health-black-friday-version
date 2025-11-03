@@ -1,3 +1,21 @@
+.flexRowContent--linha-gatilho-medo{
+  padding: 44px;
+}
+
+.flexRowContent--linha-gatilho-medo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flexRow--linha-gatilho-medo {
+  background-image: url(assets/home/home-black-friday/gatilho-medo-black.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 /* CSS ROLETA  */
 
 .flexRowContent--rules-roleta-container {
@@ -159,7 +177,7 @@
 }
 
 .flexRow--linha-final-footer {
-  background-color: #1D76BA;
+  background-color: var(--header);
 }
 
 .flexRow--linhas-footer,
@@ -237,7 +255,10 @@
 }
 
 .flexRow--content-ultima-section {
-  background: linear-gradient(to right, #D8EEFF, #D8EEFF, #F9F4EC, #F9F4EC);
+  /* normal  */
+  /* background: linear-gradient(to right, #D8EEFF, #D8EEFF, #F9F4EC, #F9F4EC); */
+  /* black friday  */
+  background: linear-gradient(to right, #3F3F3F, #3F3F3F, #305C7E, #305C7E);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -367,7 +388,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #34A2F8;
+  background-color: var(--base);
 }
 
 
@@ -530,7 +551,8 @@
 
 .flexRow--container-footer-digitando {
   height: 50px;
-  background-color: #BCD5E8;
+  /* background-color: #BCD5E8; */
+  background-color: var(--header);
 }
 
 .flexRow--container-secao-divisoria-link {
@@ -607,7 +629,10 @@
 }
 
 .flexRowContent--coluna-banner-esquerdo--imagem {
-  background: linear-gradient(to right, #D8EEFF, #F9F4EC);
+  /* NORMAL: */
+  /* background: linear-gradient(to right, #D8EEFF, #F9F4EC); */
+  /* BLACKFRIDAY:  */
+  background: linear-gradient(to right, #3F3F3F, #305C7E);
   background-repeat: no-repeat;
   background-size: cover;
   height: 520px;

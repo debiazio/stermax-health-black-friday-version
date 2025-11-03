@@ -1,5 +1,12 @@
 :root {
-  --paleta: #1f80ca;
+
+  --base: #5C5C5C;
+  --header: #000000;
+  --footer: #151515;
+
+  --fontes: #FFFFFF;
+  /* --base: #34A2F8; cor não blackfriday */
+  /* --paleta: #1f80ca; */
   --stermax-azul-claro: #9fbae1;
   --background: #fffaf4;
   --bege-02: #F6F6F6;

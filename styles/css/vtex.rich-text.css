@@ -1,5 +1,35 @@
+.container--texto-titulo-gatilho-medo,
+.container--texto-subtitulo-gatilho-medo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper--texto-titulo-gatilho-medo,
+.wrapper--texto-subtitulo-gatilho-medo{
+  width: 58%;
+}
+
+.paragraph--texto-titulo-gatilho-medo,
+.paragraph--texto-subtitulo-gatilho-medo {
+  color: var(--fontes);
+  text-align: start;
+  margin: 0 20px;
+}
+
+.paragraph--texto-titulo-gatilho-medo{
+  font-size: 45px;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+}
+
+.paragraph--texto-subtitulo-gatilho-medo{
+  font-size: 18px;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+}
+
 /* CSS ROLETA ABAIXO */
-.paragraph--titulo-regras-roleta{
+.paragraph--titulo-regras-roleta {
   font-family: "jost-regular";
   font-size: 14px;
   font-weight: 500;
@@ -291,7 +321,7 @@
 }
 
 .paragraph--texto-digitando {
-  color: #4C7593;
+  color: var(--fontes);
   font-size: 24px;
   font-family: "fraunces-regular";
   margin-top: 5px;
@@ -327,7 +357,7 @@
   font-size: 16px;
   font-family: "jost-regular";
   font-weight: 400;
-  color: #818181;
+  color: var(--fontes);
   margin-top: 20px;
 }
 
@@ -338,7 +368,7 @@
   margin-top: 40px;
   line-height: normal;
   font-weight: 400;
-  color: #636363;
+  color: var(--fontes);
 }
 
 .wrapper--titulo-banner-esquerdo,
@@ -348,11 +378,11 @@
 }
 
 .paragraph--titulo-banner-secundario {
-  background-color: #1F7ECA;
+  background-color: var(--header);
   padding: 15px;
   border-radius: 166px;
   color: white;
-  font-size: 27px;
+  font-size: 19px;
   font-family: "fraunces-regular";
   margin-right: 50px;
 }
@@ -600,7 +630,7 @@
     font-size: 12px;
   }
 
-    .paragraph--texto-rules-roleta {
+  .paragraph--texto-rules-roleta {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;

@@ -124,6 +124,7 @@
 
 .logoImage--logo {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .notificationBarContainer {
@@ -246,7 +247,7 @@
 }
 
 .imageElement--imagem-personas {
-  top: -151px;
+  top: -90px;
   position: relative;
 }
 

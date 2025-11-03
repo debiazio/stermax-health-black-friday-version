@@ -103,7 +103,7 @@
 
 .formSubmitContainer--submit-button :global(.vtex-button) {
   border: none;
-  background-color: #2585C2;
+  background-color: var(--header);
   color: #ffffff;
   font-size: 16px;
   font-weight: 900;

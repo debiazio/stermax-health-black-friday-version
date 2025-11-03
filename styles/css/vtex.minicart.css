@@ -1,6 +1,6 @@
 .minicartIconContainer .cartIcon {
   width: 5px;
-  height: 5px;
+  height: 4.6px;
   overflow: visible;
   position: relative;
   top: 0;
@@ -8,6 +8,7 @@
   margin: 0;
   margin-bottom: 27px;
   margin-right: 30px;
+  padding-bottom: 11px;
 }
 
 @media screen and (max-width: 1000px) {
