@@ -1,4 +1,16 @@
-.flexRowContent--linha-gatilho-medo{
+
+.flexRow--main-header-mobile{
+  background-color: var(--header);
+}
+
+.flexRowContent--main-header-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexRowContent--linha-gatilho-medo {
   padding: 44px;
 }
 

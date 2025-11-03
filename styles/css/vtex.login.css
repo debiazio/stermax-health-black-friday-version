@@ -15,4 +15,8 @@
   .cartIcon{
     width: 2rem!important;
   }
+
+  .buttonLink :global(.vtex-button__label){
+    padding: 0;
+  }
 }

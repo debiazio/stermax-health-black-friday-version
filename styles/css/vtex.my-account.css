@@ -102,8 +102,7 @@ input:-webkit-autofill {
   margin-top: -133px;
 }
 
-/* :global(.vtex-button__label){
-  margin: 0;
+:global(.vtex-button__label){
   padding: 0;
-} */
+}
 }

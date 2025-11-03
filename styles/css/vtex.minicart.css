@@ -22,5 +22,13 @@
     width: 0.2rem;
   }
 
+  .minicartContainer :global(.vtex-button) {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 60px;
+  }
+
 
 }

@@ -268,11 +268,15 @@
 
 .imageElement--icone-pesquisa-mobile {
   width: 28px;
-  margin-top: 11px;
+
   margin-right: 6px;
 }
 
 @media screen and (max-width: 1000px) {
+  .logoContainer{
+    margin-left: -50px;
+  }
+
   .productDescriptionContainer--descricao-produto {
     padding: 15px;
   }
@@ -300,7 +304,7 @@
   .sizeMobile {
     display: flex;
     flex-direction: column;
-    margin-top: 12px;
+    margin-left: 20px;
   }
 
   .imageElement--assistencias-img {
