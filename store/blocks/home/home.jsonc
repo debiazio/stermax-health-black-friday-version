@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      // "responsive-layout.desktop#slider-home-desktop",
       "list-context.image-list#carrossel-home-desktop",
       "flex-layout.row#banner-stermaxHealth-personas",
       "responsive-layout.mobile#deals-mobile",
@@ -14,6 +15,7 @@
       "flex-layout.row#ultima-section"
     ]
   },
+
   "list-context.image-list#carrossel-home-desktop": {
     "children": [
       "slider-layout#carrossel-home-desktop"
