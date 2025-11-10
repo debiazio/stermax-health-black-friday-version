@@ -10,7 +10,7 @@
 
 .imageElement--tabela-primeira-tela {
   max-width: 360px;
-  max-height: 106px;
+  max-height: 90px;
   margin-top: 42px;
 }
 
@@ -335,17 +335,6 @@
 
 
 
-@media screen and (max-width: 400px) {
-  .imageElement--titulo-img-roleta {
-    margin-top: 360px;
-    width: 254px;
-    padding: 10px 0 10px 0;
-  }
-
-  .imageElement--roleta-primeira-tela {
-    width: 250px;
-  }
-}
 
 /* roleta abaixo  */
 @media screen and (min-width: 1000px) {
@@ -370,13 +359,14 @@
 
   /* CSS ROLETA ABAIXO  */
   .imageElement--roleta-primeira-tela {
-    padding-bottom: 10px;
-    margin-top: 30px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 350px;
+    width: 80%;
+    margin-top: 50px;
   }
 
   .imageElement--titulo-img-roleta {
-    margin-top: 500px;
-    /* padding: 10px 0 10px 0; */
     width: 70vw;
   }
 
@@ -387,10 +377,36 @@
 
   .imageElement--tabela-primeira-tela {
     max-width: 70vw;
-    max-height: fit-content;
     padding-top: 10px;
     margin: 0;
+    top: 300px;
+    position: relative;
   }
 
   /* CSS ROLETA ACIMA  */
+
+  .imageElement--imagem-personas {
+    top: -110px;
+    position: relative;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .imageElement--titulo-img-roleta {
+    width: 254px;
+    padding: 10px 0 10px 0;
+  }
+
+  .imageElement--roleta-primeira-tela {
+    margin-bottom: 100px;
+    position: relative;
+    top: 350px;
+    width: 60%;
+  }
+
+  .imageElement--imagem-personas {
+    top: -140px;
+    position: relative;
+  }
 }

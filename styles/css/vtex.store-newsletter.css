@@ -42,6 +42,7 @@
 .emailInputContainer--inputs-form-roleta {
   border-radius: 100px;
   margin-bottom: 6px;
+  z-index: 100;
 }
 
 .phoneInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder,
@@ -173,17 +174,7 @@
 @media screen and (max-width: 1000px) {}
 
 
-@media screen and (max-width: 380px) {
-  .newsletterForm {
-    margin-top: 285px;
-  }
 
-  .phoneInputContainer--inputs-form-roleta,
-  .emailInputContainer--inputs-form-roleta,
-  .nameInputContainer--inputs-form-roleta {
-    width: 100%;
-  }
-}
 
 @media screen and (max-width: 1024px) {
   .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label) {
@@ -228,6 +219,7 @@
 
   .formSubmitContainer--submit-button :global(.vtex-button__label) {
     width: unset;
+    padding: 0 20px;
   }
 
   .defaultErrorMessage--formulario-roleta {
@@ -235,4 +227,17 @@
   }
 
 
+}
+
+
+@media screen and (max-width: 380px) {
+  .newsletterForm {
+    margin-top: 150px;
+  }
+
+  .phoneInputContainer--inputs-form-roleta,
+  .emailInputContainer--inputs-form-roleta,
+  .nameInputContainer--inputs-form-roleta {
+    width: 100%;
+  }
 }

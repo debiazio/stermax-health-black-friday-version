@@ -177,3 +177,14 @@
 
   /* CSS ROLETA ACIMA  */
 }
+
+
+@media screen and (max-width: 350px) {
+  /* CSS ROLETA ABAIXO  */
+  .headerContainer--roleta-header{
+    width: 100%;
+    border-bottom: none;
+  }
+
+  /* CSS ROLETA ACIMA  */
+}

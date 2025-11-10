@@ -665,3 +665,9 @@
     display: flex;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .paragraph--subtitulo-nova-roleta{
+    font-size: 10px;
+  }
+}
