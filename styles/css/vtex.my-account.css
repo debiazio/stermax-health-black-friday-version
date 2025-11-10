@@ -89,9 +89,9 @@ input:-webkit-autofill {
   align-items: center;
 }
 
-:global(.vtex-address-form-4-x-input){
+/* :global(.vtex-address-form-4-x-input){
   border: 1px solid var(--cinza-medio) !important;
-}
+} */
 
 :global(.vtex-store-components-3-x-content) p {
   color: #1f80ca !important;

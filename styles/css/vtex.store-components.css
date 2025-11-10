@@ -1,3 +1,14 @@
+.shippingContainer :global(.vtex-input-prefix__group){
+  border: 1px solid var(--cinza-medio) !important;
+}
+
+.skuSelectorName,
+.productDescriptionText--descricao-produto,
+.shippingTableBody{
+  color: #979899!important;
+}
+
+
 /* CSS ROLETA ABAIXO */
 .imageElement--roleta-primeira-tela {
   width: 400px;
