@@ -146,7 +146,7 @@
       "text": "R. Emma Rohrsetzer, 1011 - Emiliano Perneta, Pinhais - PR, 83324-190"
     }
   },
-  // FORMULARIO FOOTER
+  // FORMULARIO FOOTER alt
   "newsletter-form#footer": {
     "props": {
       "blockClass": "container-newsletter"
