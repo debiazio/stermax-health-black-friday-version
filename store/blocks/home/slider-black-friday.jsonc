@@ -1,0 +1,61 @@
+{
+  "responsive-layout.desktop#slider-home-desktop": {
+    "children": [
+      "slider-layout#home-images"
+    ]
+  },
+  // SLIDER IMAGENS DESKTOP
+  "slider-layout#home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "width": 1300,
+      "showNavigationArrows": "always",
+      "title": "Slider Imagens Desktop",
+      "blockClass": "slider-desktop-home",
+      "autoplay": {
+        "timeout": 8000
+      }
+    },
+    "children": [
+      "modal-trigger#trigger2-roleta"
+    ]
+  },
+  // TRIGGER ROLETA desktop
+  "modal-trigger#trigger2-roleta": {
+    "props": {
+      "trigger": "click"
+    },
+    "children": [
+      "image#teste-trigger-roleta",
+      "modal-layout#roleta",
+      "image#purehealth"
+    ]
+  },
+  "image#teste-trigger-roleta": {
+    "props": {
+      "src": "assets/home/home-black-friday/banners/roleta-desk.gif",
+      "alt": "Roleta",
+      "lazyLoad": false,
+      "preload": true,
+      "blockClass": [
+        "image-slider-desktop",
+        "cursor-pointer"
+      ]
+    }
+  },
+  "image#purehealth": {
+    "props": {
+      "src": "assets/home/home-black-friday/banners/pure-health.webp",
+      "alt": "Pure health",
+      "blockClass": "image-slider-desktop",
+      "link": {
+        "url": "#"
+      }
+    }
+  }
+}
