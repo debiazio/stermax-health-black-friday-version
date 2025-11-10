@@ -52,15 +52,7 @@
 
 
 
-@media screen and (max-width: 360px) {
 
-  /* CSS ROLETA ABAIXO  */
-  .paper--form-roleta {
-    padding-bottom: 0;
-  }
-
-  /* CSS ROLETA ACIMA  */
-}
 
 @media screen and (min-width: 40em) {
   .paper--quickview {
@@ -166,13 +158,25 @@
     justify-content: center;
     display: flex;
     padding-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .headerContainer--roleta-header{
     position: unset;
-    /* top: 70px; */
+    
     width: 100%;
     border-bottom: none;
+  }
+
+  /* CSS ROLETA ACIMA  */
+}
+
+@media screen and (max-width: 360px) {
+
+  /* CSS ROLETA ABAIXO  */
+  .paper--form-roleta {
+    padding-bottom: 0;
   }
 
   /* CSS ROLETA ACIMA  */
@@ -188,3 +192,5 @@
 
   /* CSS ROLETA ACIMA  */
 }
+
+

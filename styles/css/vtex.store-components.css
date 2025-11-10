@@ -373,12 +373,14 @@
     margin-bottom: 100px;
     position: relative;
     top: 350px;
-    width: 80%;
+    width: 70%;
+    height: auto;
     margin-top: 50px;
   }
 
   .imageElement--titulo-img-roleta {
     width: 70vw;
+    margin-top: 180px;
   }
 
   .imageElement--roleta-logotipo-idelaine {
@@ -414,6 +416,7 @@
     position: relative;
     top: 350px;
     width: 60%;
+    height: auto;
   }
 
   .imageElement--imagem-personas {
