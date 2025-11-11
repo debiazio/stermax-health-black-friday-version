@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#slider-home-desktop",
-      "list-context.image-list#carrossel-home-desktop",
+      "responsive-layout.mobile#slider-home-mobile",
+      // "list-context.image-list#carrossel-home-desktop",
       "flex-layout.row#banner-stermaxHealth-personas",
       "responsive-layout.mobile#deals-mobile",
       "flex-layout.row#deals",
@@ -29,11 +30,11 @@
       "images": [
         {
           "image": "assets/Artboard 34.webp",
-          "mobileImage": "assets/mobile-Artboard 34_1.webp"
+          "mobileImage": "assets/home/home-black-friday/banners/mobile/mobile-purehealth.webp"
         },
         {
           "image": "assets/Artboard 32_1.webp",
-          "mobileImage": "assets/mobile-Artboard 32_3.webp"
+          "mobileImage": "assets/home/home-black-friday/banners/vida-vertical.webp"
         },
         {
           "image": "assets/Artboard 32.webp",

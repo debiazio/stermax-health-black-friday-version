@@ -31,7 +31,15 @@
 .emailInputContainer--inputs-form-roleta input {
   color: #bcb2ba;
 }
+
 /* CSS ROLETA ACIMA  */
+
+:global(.vtex-render__container-id-slider-home-desktop) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 :focus {
   outline: 0;
@@ -81,9 +89,10 @@ input:-webkit-autofill {
     transform: translateX(100%);
   }
 }
+
 /* reset  */
 
-:global(.vtex-render__container-id-carrossel-home-desktop){
+:global(.vtex-render__container-id-carrossel-home-desktop) {
   justify-content: center;
   display: flex;
   align-items: center;
@@ -98,11 +107,11 @@ input:-webkit-autofill {
 }
 
 @media screen and (max-width: 1000px) {
-:global(.vtex-render__container-id-deals-mobile) {
-  margin-top: -110px;
-}
+  /* :global(.vtex-render__container-id-deals-mobile) {
+    margin-top: -110px;
+  } */
 
-:global(.vtex-button__label){
-  padding: 0;
-}
+  :global(.vtex-button__label) {
+    padding: 0;
+  }
 }
