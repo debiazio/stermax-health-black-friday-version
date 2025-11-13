@@ -1,0 +1,153 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#linha-quem-somos",
+      "flex-layout.row#linha-selos-quem-somos"
+    ]
+  },
+  // LINHA QUEM SOMOS
+  "flex-layout.row#linha-quem-somos": {
+    "props": {
+      "blockClass": "linha-quem-somos",
+      "colSizing": "auto",
+      "fullWidth": false
+    },
+    "children": [
+      "rich-text#titulo-quem-somos",
+      "rich-text#texto-quem-somos"
+    ],
+    "title": "Banner quem somos"
+  },
+  // TITULO QUEM SOMOS
+  "rich-text#titulo-quem-somos": {
+    "props": {
+      "text": "Quem Somos",
+      "blockClass": "titulo-quem-somos"
+    },
+    "title": "Titulo quem somos"
+  },
+  // TEXTO QUEM SOMOS
+  "rich-text#texto-quem-somos": {
+    "props": {
+      "text": "Com sede em Pinhais (PR) e atuação em todo o país, oferecemos uma experiência de compra direta de fábrica, unindo qualidade, segurança e confiança para clínicas, consultórios, hospitais e laboratórios. Ao longo de sua trajetória, a Stermax se consolidou como referência no setor, investindo continuamente em inovação e excelência para transformar a rotina de esterilização.",
+      "blockClass": "texto-quem-somos",
+      "textAlignment": "CENTER"
+    },
+    "title": "Texto quem somos"
+  },
+  // SELOS
+  "flex-layout.row#linha-selos-quem-somos": {
+    "props": {
+      "blockClass": "linha-selos-quem-somos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "responsive-layout.desktop#banner-quem-somos",
+      "responsive-layout.mobile#banner-quem-somos"
+    ]
+  },
+  "responsive-layout.desktop#banner-quem-somos": {
+    "children": [
+      "flex-layout.col#coluna-selos-desde-quem-somos",
+      "flex-layout.col#coluna-selos-300mil-quem-somos",
+      "flex-layout.col#coluna-selos-lider-quem-somos",
+      "flex-layout.col#coluna-selos-nacional-quem-somos"
+    ]
+  },
+  // colunas desktop dos selos
+  "flex-layout.col#coluna-selos-desde-quem-somos": {
+    "props": {
+      "blockClass": "coluna-selos"
+    },
+    "children": [
+      "image#icone-desde",
+      "image#img-texto-desde"
+    ]
+  },
+  "flex-layout.col#coluna-selos-300mil-quem-somos": {
+    "props": {
+      "blockClass": "coluna-selos"
+    },
+    "children": [
+      "image#icone-300mil",
+      "image#img-texto-300mil"
+    ]
+  },
+  "flex-layout.col#coluna-selos-lider-quem-somos": {
+    "props": {
+      "blockClass": "coluna-selos"
+    },
+    "children": [
+      "image#icone-lider",
+      "image#img-texto-lider"
+    ]
+  },
+  "flex-layout.col#coluna-selos-nacional-quem-somos": {
+    "props": {
+      "blockClass": "coluna-selos"
+    },
+    "children": [
+      "image#icone-nacional",
+      "image#img-texto-nacional"
+    ]
+  },
+  "image#icone-desde": {
+    "props": {
+      "src": "assets/quem-somos/desde-91.webp",
+      "alt": "Img selos",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#img-texto-desde": {
+    "props": {
+      "src": "assets/quem-somos/desde-91-texto.webp",
+      "alt": "Img selos",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#icone-300mil": {
+    "props": {
+      "src": "assets/quem-somos/vendidas.webp",
+      "alt": "Img selos",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#img-texto-300mil": {
+    "props": {
+      "src": "assets/quem-somos/300mil-texto.webp",
+      "alt": "Img selos",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#icone-lider": {
+    "props": {
+      "src": "assets/quem-somos/lider.webp",
+      "alt": "Img selos",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#img-texto-lider": {
+    "props": {
+      "src": "assets/quem-somos/lider-texto.webp",
+      "alt": "Img selos",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#icone-nacional": {
+    "props": {
+      "src": "assets/quem-somos/fab-nacional.webp",
+      "alt": "Img selos",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#img-texto-nacional": {
+    "props": {
+      "src": "assets/quem-somos/fab-nacional-texto.webp",
+      "alt": "Img selos",
+      "blockClass": "icone-selos"
+    }
+  },
+  "responsive-layout.mobile#banner-quem-somos": {
+    "children": []
+  }
+}

@@ -1,3 +1,55 @@
+/* quem somos  */
+.flexRow--linha-selos-quem-somos{
+  margin-top: -45px;
+  margin-bottom: 50px;
+}
+
+.flexRowContent--linha-selos-quem-somos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.flexCol--coluna-selos {
+  background-color: #1F7ECA;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  padding: 15px 50px;
+}
+
+.flexColChild--coluna-selos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--linha-quem-somos {
+  padding-top: 74px;
+}
+
+.flexRow--linha-quem-somos {
+  background-image: url(assets/quem-somos/desktop/background-desktop.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 90px;
+}
+
+.flexRowContent--linha-quem-somos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* quem somos  */
+
+
 .flexRowContent--linha-desconto-e-valor-productsummary {
   display: flex;
   flex-direction: column;
@@ -922,6 +974,19 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRowContent--linha-quem-somos {
+    padding-top: 84px;
+  }
+
+
+  .flexRow--linha-quem-somos {
+    background-image: url(assets/quem-somos/mobile/background-mobile.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
   .flexRowContent--conteiner-confirmacao {
     display: flex;
     flex-direction: column;

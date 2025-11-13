@@ -1,3 +1,27 @@
+.paragraph--titulo-quem-somos {
+  font-family: "fraunces-regular";
+  font-weight: 900;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: var(--fontes);
+  margin: 0;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.container--texto-quem-somos{
+  padding: 10px;
+}
+
+.paragraph--texto-quem-somos{
+  color: var(--fontes);
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  line-height: normal;
+}
+
 .container--texto-titulo-gatilho-medo,
 .container--texto-subtitulo-gatilho-medo {
   display: flex;
@@ -5,7 +29,7 @@
 }
 
 .wrapper--texto-titulo-gatilho-medo,
-.wrapper--texto-subtitulo-gatilho-medo{
+.wrapper--texto-subtitulo-gatilho-medo {
   width: 58%;
 }
 
@@ -16,13 +40,13 @@
   margin: 0 20px;
 }
 
-.paragraph--texto-titulo-gatilho-medo{
+.paragraph--texto-titulo-gatilho-medo {
   font-size: 45px;
   font-family: "fraunces-regular";
   font-weight: 400;
 }
 
-.paragraph--texto-subtitulo-gatilho-medo{
+.paragraph--texto-subtitulo-gatilho-medo {
   font-size: 18px;
   font-family: "fraunces-regular";
   font-weight: 400;
@@ -667,7 +691,7 @@
 }
 
 @media screen and (max-width: 350px) {
-  .paragraph--subtitulo-nova-roleta{
+  .paragraph--subtitulo-nova-roleta {
     font-size: 10px;
   }
 }
