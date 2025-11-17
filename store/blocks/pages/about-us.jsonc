@@ -1,9 +1,12 @@
 {
   "store.custom#about-us": {
-    "blocks": [
+    "children": [
       "flex-layout.row#linha-quem-somos",
       "flex-layout.row#linha-selos-quem-somos",
-      "flex-layout.row#linha-nosso-proposito"
+      "flex-layout.row#linha-nosso-proposito",
+      "responsive-layout.desktop#colunas-biosseguranca",
+      "responsive-layout.mobile#colunas-biosseguranca",
+      "flex-layout.row#titulo-pq-ecolher"
     ]
   },
   // LINHA QUEM SOMOS
@@ -205,6 +208,132 @@
     "props": {
       "blockClass": "texto-nosso-proposito",
       "text": "Nossa missão é facilitar o acesso às soluções da Stermax com máxima conveniência e credibilidade. Aqui, você encontra todas as linhas de autoclaves horizontais , com suporte técnico decicado, manual de operação, compra segura e garantia de fábrica. A Stermax Health é a loja oficial da Stermax – marca líder em equipamentos de esterilização há mais de 30 anos no mercado. Nascemos para atender com excelência profissionais da saúde que exigem o mais alto padrão em biossegurança, oferecendo autoclaves horizontais e outros equipamentos certificados, fabricados no Brasil com qualidade internacional de fabricação. "
+    }
+  },
+  // layout DESKTOP
+  // LINHA COMPROMISSO biosseguranca
+  "responsive-layout.desktop#colunas-biosseguranca": {
+    "children": [
+      "flex-layout.row#compromisso-biosseguranca"
+    ]
+  },
+  "flex-layout.row#compromisso-biosseguranca": {
+    "props": {
+      "blockClass": "linha-compromisso-bioss"
+    },
+    "children": [
+      "flex-layout.col#coluna-textos-biosseguranca",
+      "flex-layout.col#coluna-imagem-biosseguranca"
+    ]
+  },
+  // COLUNA ESQUERDA TEXTOS
+  "flex-layout.col#coluna-textos-biosseguranca": {
+    "props": {
+      "blockClass": "biosseguranca-colunas-textos",
+      "preventVerticalStretch": true,
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#titulo-biosseguranca",
+      "rich-text#texto-biosseguranca"
+    ]
+  },
+  "rich-text#titulo-biosseguranca": {
+    "props": {
+      "blockClass": "titulo-biosseguranca",
+      "text": "Nosso compromisso\n com a **Biossegurança**"
+    }
+  },
+  "rich-text#texto-biosseguranca": {
+    "props": {
+      "blockClass": "texto-biosseguranca",
+      "text": "A Stermax nasceu de profissionais que entendem a complexidade e a importância da biossegurança na rotina da saúde. Cada equipamento é desenvolvido para proporcionar esterilização confiável, durabilidade e eficiência, protegendo profissionais e pacientes."
+    }
+  },
+  "flex-layout.col#coluna-imagem-biosseguranca": {
+    "props": {
+      "blockClass": "coluna-imagem-bioss",
+      "width": "40%"
+    },
+    "children": [
+      "image#img-biosseguranca"
+    ]
+  },
+  "image#img-biosseguranca": {
+    "props": {
+      "blockClass": "image-biosseguranca",
+      "alt": "Mulher biosseguranca",
+      "src": "assets/quem-somos/desktop/bioseguranca-desktop.webp"
+    }
+  },
+  // LAYOUT MOBILE
+  "responsive-layout.mobile#colunas-biosseguranca": {
+    "children": [
+      "flex-layout.row#compromisso-biosseguranca-mobile"
+    ]
+  },
+  "flex-layout.row#compromisso-biosseguranca-mobile": {
+    "props": {
+      "blockClass": "linha-compromisso-biosseguranca-mobile"
+    },
+    "children": [
+      "rich-text#titulo-biosseguranca-mobile",
+      "rich-text#texto-biosseguranca",
+      "image#img-biosseguranca-mobile"
+    ]
+  },
+  "image#img-biosseguranca-mobile": {
+    "props": {
+      "src": "assets/quem-somos/mobile/bioseguranca-mobile.webp",
+      "alt": "Mulher biosseguranca",
+      "blockClass": "image-biosseguranca-mobile"
+    }
+  },
+    "rich-text#titulo-biosseguranca-mobile": {
+    "props": {
+      "blockClass": "titulo-biosseguranca",
+      "text": "Nosso compromisso com a **Biossegurança**"
+    }
+  },
+  // linha pq escolher
+  "flex-layout.row#titulo-pq-ecolher":{
+    "props": {
+      "blockClass": "linha-pq-escolher",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-pq-escolher",
+      "responsive-layout.desktop#image-logo-stx",
+      "responsive-layout.mobile#image-logo-stx"
+
+    ]
+  },
+  "rich-text#titulo-pq-escolher":{
+    "props": {
+      "blockClass": "titulo-pq-escolher",
+      "text": "Por que escolher a"
+    }
+  },
+  "responsive-layout.desktop#image-logo-stx":{
+    "children": [
+        "image#logo-stx-quem-somos"
+    ]
+  },
+  "responsive-layout.mobile#image-logo-stx":{
+    "children": [
+        "image#logo-stx-quem-somos-mobile"
+    ]
+  },
+  "image#logo-stx-quem-somos":{
+    "props": {
+      "blockClass": "image-stx-logo-quem-somos",
+      "src": "assets/quem-somos/desktop/stermax-health-desktop-quem-somos.webp"
+    }
+  },
+  "image#logo-stx-quem-somos-mobile":{
+    "props": {
+      "blockClass": "image-stx-logo-quem-somos",
+      "src": "assets/quem-somos/mobile/stermax-health-mobile-quem-somos.webp"
     }
   }
 }
