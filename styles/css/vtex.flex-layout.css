@@ -1,4 +1,9 @@
 /* quem somos  */
+.flexRowContent--linha-nosso-proposito{
+  display: flex;
+  flex-direction: column;
+}
+
 .flexRow--linha-selos-quem-somos {
   margin-top: -45px;
   margin-bottom: 50px;
@@ -984,6 +989,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRowContent--linha-nosso-proposito{
+    padding: 25px;
+  }
+
   .flexRow--linha-selos-quem-somos {
     margin-top: -145px;
     margin-bottom: 50px;
@@ -998,10 +1007,10 @@
   .flexCol--coluna-selos:hover {
     box-shadow: none;
   }
-  
+
   .flexCol--coluna-selos {
     min-height: 70px;
-    padding: 10px 30px;
+    padding: 10px 15px;
     margin: 10px 0;
   }
 

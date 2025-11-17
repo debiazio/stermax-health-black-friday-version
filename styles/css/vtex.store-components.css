@@ -289,6 +289,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .imageElement--icone-selos-menor{
+    max-width: 70%;
+  }
+
   .logoContainer {
     margin-left: -50px;
   }

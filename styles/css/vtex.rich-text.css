@@ -1,3 +1,21 @@
+.paragraph--titulo-nosso-proposito {
+  font-family: "fraunces-regular";
+  font-weight: 600;
+  font-size: 40px;
+  color: #4C4A48;
+  margin: 70px 0 22px 0;
+}
+
+.paragraph--texto-nosso-proposito {
+  font-family: "fraunces-regular";
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: #4C4A48;
+  line-height: normal;
+  margin-bottom: 70px;
+}
+
 .paragraph--titulo-quem-somos {
   font-family: "fraunces-regular";
   font-weight: 900;
@@ -9,11 +27,11 @@
   padding-bottom: 20px;
 }
 
-.container--texto-quem-somos{
+.container--texto-quem-somos {
   padding: 10px;
 }
 
-.paragraph--texto-quem-somos{
+.paragraph--texto-quem-somos {
   color: var(--fontes);
   font-family: "fraunces-regular";
   font-weight: 400;
@@ -525,6 +543,10 @@
 
 
 @media only screen and (max-width: 1000px) {
+  .paragraph--titulo-nosso-proposito {
+    margin: 0px 0 22px 0;
+  }
+
 
   /* CSS ROLETA ABAIXO */
   .container--titulo-regras-roleta {

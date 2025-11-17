@@ -2,7 +2,8 @@
   "store.custom#about-us": {
     "blocks": [
       "flex-layout.row#linha-quem-somos",
-      "flex-layout.row#linha-selos-quem-somos"
+      "flex-layout.row#linha-selos-quem-somos",
+      "flex-layout.row#linha-nosso-proposito"
     ]
   },
   // LINHA QUEM SOMOS
@@ -102,28 +103,38 @@
     "props": {
       "src": "assets/quem-somos/desde-91-texto.webp",
       "alt": "Img selos",
-      "blockClass": "icone-selos"
+      "blockClass": [
+        "icone-selos",
+        "icone-selos-menor"
+      ]
     }
   },
   "image#icone-300mil": {
     "props": {
       "src": "assets/quem-somos/vendidas.webp",
       "alt": "Img selos",
-      "blockClass": "icone-selos"
+      "blockClass": [
+        "icone-selos"
+      ]
     }
   },
   "image#img-texto-300mil": {
     "props": {
       "src": "assets/quem-somos/300mil-texto.webp",
       "alt": "Img selos",
-      "blockClass": "icone-selos"
+      "blockClass": [
+        "icone-selos"
+      ]
     }
   },
   "image#icone-lider": {
     "props": {
       "src": "assets/quem-somos/lider.webp",
       "alt": "Img selos",
-      "blockClass": "icone-selos"
+      "blockClass": [
+        "icone-selos",
+        "icone-selos-menor"
+      ]
     }
   },
   "image#img-texto-lider": {
@@ -172,5 +183,28 @@
       "flex-layout.col#coluna-selos-300mil-quem-somos",
       "flex-layout.col#coluna-selos-nacional-quem-somos"
     ]
+  },
+  // LINHA NOSSO PROPOSITO
+  "flex-layout.row#linha-nosso-proposito": {
+    "props": {
+      "blockClass": "linha-nosso-proposito",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-nosso-proposito",
+      "rich-text#texto-nosso-proposito"
+    ]
+  },
+  "rich-text#titulo-nosso-proposito": {
+    "props": {
+      "blockClass": "titulo-nosso-proposito",
+      "text": "Nosso propósito "
+    }
+  },
+  "rich-text#texto-nosso-proposito": {
+    "props": {
+      "blockClass": "texto-nosso-proposito",
+      "text": "Nossa missão é facilitar o acesso às soluções da Stermax com máxima conveniência e credibilidade. Aqui, você encontra todas as linhas de autoclaves horizontais , com suporte técnico decicado, manual de operação, compra segura e garantia de fábrica. A Stermax Health é a loja oficial da Stermax – marca líder em equipamentos de esterilização há mais de 30 anos no mercado. Nascemos para atender com excelência profissionais da saúde que exigem o mais alto padrão em biossegurança, oferecendo autoclaves horizontais e outros equipamentos certificados, fabricados no Brasil com qualidade internacional de fabricação. "
+    }
   }
 }
