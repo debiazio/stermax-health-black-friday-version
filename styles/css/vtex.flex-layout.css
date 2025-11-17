@@ -1,4 +1,9 @@
 /* quem somos  */
+.flexRowContent--linha-disclosute-quem-somos .stretchChildrenWidth{
+  display: flex;
+  flex-direction: column;
+}
+
 .flexRowContent--linha-pq-escolher {
   display: flex;
   flex-direction: column;
