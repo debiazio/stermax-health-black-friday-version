@@ -1,17 +1,26 @@
 /* quem somos  */
-.flexRow--linha-selos-quem-somos{
+.flexRow--linha-selos-quem-somos {
   margin-top: -45px;
   margin-bottom: 50px;
+}
+
+.flexRowContent--linha-selos-quem-somos .stretchChildrenWidth {
+  gap: 15px;
 }
 
 .flexRowContent--linha-selos-quem-somos {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 15px;
+}
+
+.flexCol--coluna-selos:hover {
+  box-shadow: 2px 2px 12px 4px #1f7dca71;
+  transition: all 0.3s ease;
 }
 
 .flexCol--coluna-selos {
+  transition: all 0.8s ease;
   background-color: #1F7ECA;
   display: flex;
   flex-direction: row;
@@ -19,6 +28,7 @@
   align-items: center;
   border-radius: 100px;
   padding: 15px 50px;
+  gap: 15px;
 }
 
 .flexColChild--coluna-selos {
@@ -974,8 +984,30 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRow--linha-selos-quem-somos {
+    margin-top: -145px;
+    margin-bottom: 50px;
+  }
+
+  .flexRowContent--linha-selos-quem-somos {
+    padding: 0 15px;
+  }
+
+
+
+  .flexCol--coluna-selos:hover {
+    box-shadow: none;
+  }
+  
+  .flexCol--coluna-selos {
+    min-height: 70px;
+    padding: 10px 30px;
+    margin: 10px 0;
+  }
+
   .flexRowContent--linha-quem-somos {
     padding-top: 84px;
+    padding-bottom: 120px;
   }
 
 

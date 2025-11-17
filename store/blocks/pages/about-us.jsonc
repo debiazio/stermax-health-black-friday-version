@@ -148,6 +148,29 @@
     }
   },
   "responsive-layout.mobile#banner-quem-somos": {
-    "children": []
+    "children": [
+      "flex-layout.row#linha1-selos-mobile",
+      "flex-layout.row#linha2-selos-mobile"
+    ]
+  },
+  "flex-layout.row#linha1-selos-mobile": {
+    "props": {
+      "blockClass": "linha-selos-mobile",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-selos-desde-quem-somos",
+      "flex-layout.col#coluna-selos-lider-quem-somos"
+    ]
+  },
+  "flex-layout.row#linha2-selos-mobile": {
+    "props": {
+      "blockClass": "linha-selos-mobile",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-selos-300mil-quem-somos",
+      "flex-layout.col#coluna-selos-nacional-quem-somos"
+    ]
   }
 }
