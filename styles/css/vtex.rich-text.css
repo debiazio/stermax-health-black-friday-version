@@ -8,6 +8,7 @@
   font-weight: 500;
   color: #777777;
   margin-left: -50px;
+  max-width: 60%;
 
   /* animação suave */
   transition: all 0.2s ease;
