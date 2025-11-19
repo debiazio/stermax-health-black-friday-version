@@ -1,3 +1,54 @@
+.container--titulo-texto-seja-bemvindo,
+.container--subtitulo-texto-seja-bemvindo {
+  display: flex;
+  justify-content: center;
+  padding: 0 25px;
+}
+
+.strong--titulo-texto-seja-bemvindo{
+  font-weight: 700;
+}
+
+.paragraph--titulo-texto-seja-bemvindo {
+  color: #1F80CA;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--subtitulo-texto-seja-bemvindo {
+  color: #1F80CA;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+
+.paragraph--texto-content {
+  font-family: "jost-regular";
+  font-weight: 400;
+  font-size: 21px;
+  color: #A7A7A7;
+}
+
+.paragraph--texto-trigger {
+  font-family: "jost-regular";
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  color: #636363;
+}
+
+.paragraph--texto-trigger-30anos::before {
+  content: "+ ";
+  white-space: nowrap;
+}
+
 .paragraph--titulo-pq-escolher {
   font-family: "fraunces-regular";
   font-weight: 500;
@@ -578,6 +629,25 @@
 
 
 @media only screen and (max-width: 1000px) {
+  .paragraph--titulo-texto-seja-bemvindo {
+
+    font-size: 18px;
+
+  }
+
+  .paragraph--subtitulo-texto-seja-bemvindo {
+
+    font-size: 18px;
+  }
+
+  .paragraph--texto-content {
+    font-size: 16px;
+  }
+
+  .paragraph--texto-trigger {
+    font-size: 18px;
+  }
+
   .paragraph--titulo-pq-escolher {
     font-size: 24px;
   }
