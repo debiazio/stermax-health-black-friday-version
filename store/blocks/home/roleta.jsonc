@@ -32,10 +32,10 @@
       "colSizing": "auto"
     },
     "children": [
-      "newsletter-form#teste-roleta"
+      "flex-layout.row#teste-roleta"
     ]
   },
-  "newsletter-form#teste-roleta": {
+  "flex-layout.row#teste-roleta": {
     "props": {
       "SuccessState": "rich-text#roleta-fomr",
       "blockClass": "formulario-roleta"
@@ -54,11 +54,7 @@
       "image#roleta-premios",
       "rich-text#titulo-roleta",
       "rich-text#subtitulo-roleta",
-      "newsletter-input-name#roleta",
-      "newsletter-input-email#roleta",
-      "newsletter-input-phone#roleta",
-      "flex-layout.row#confirm",
-      "flex-layout.row#linha-submit",
+      "form-roleta",
       "flex-layout.row#rules"
     ]
   },
