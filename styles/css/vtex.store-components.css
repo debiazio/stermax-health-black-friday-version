@@ -1,3 +1,18 @@
+  .imageElement--img-mobile-banner-inicial{
+    margin-left: -25px;
+  }
+
+  .imageElement--image-autoclave-pq-comprar{
+    margin-top: 30px;
+    transition: all 0.4s ease;
+  }
+
+
+  .imageElement--image-autoclave-pq-comprar:hover{
+    transition: all 0.4s ease;
+    margin-right: 35px;
+  }
+
   .imageElement--image-stx-logo-quem-somos {
     margin: 15px 0 35px 0;
   }

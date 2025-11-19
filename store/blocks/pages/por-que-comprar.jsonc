@@ -1,0 +1,110 @@
+{
+  "store.custom#por-que-comprar": {
+    "children": [
+      "responsive-layout.desktop#banner-inicial",
+      "responsive-layout.mobile#banner-inicial",
+      "flex-layout.row#linha-certificados-pq-comprar"
+    ]
+  },
+  // ====================
+  // linha banner inicial
+  // ====================
+  "responsive-layout.mobile#banner-inicial":{
+    "children": [
+      "flex-layout.row#linha-mobile-banner-pq-comprar"
+
+    ]
+  },
+  "flex-layout.row#linha-mobile-banner-pq-comprar":{
+    "props": {
+      "blockClass": "linha-mobile-banner-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#banner-inicial-mobile"
+    ]
+  },
+  "image#banner-inicial-mobile":{
+    "props": {
+      "blockClass": "img-mobile-banner-inicial",
+      "src": "assets/por-que-comprar/mobile/mobile.webp",
+      "alt": "Por que comprar Stermax Health"
+    }
+  },
+  "responsive-layout.desktop#banner-inicial":{
+    "children": [
+      "flex-layout.row#banner-inicial"
+    ]
+  },
+  "flex-layout.row#banner-inicial": {
+    "props": {
+      "blockClass": "linha-banner-inicial",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-textos-pq-comprar",
+      "flex-layout.row#linha-imagem-texto"
+    ],
+    "title": "Linha banner inicial"
+  },
+  // LINHA DOS TEXTOS
+  "flex-layout.row#linha-textos-pq-comprar": {
+    "props": {
+      "blockClass": "linha-textos-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#intro-pq-comprar",
+      "rich-text#stermax-health-pq-comprar"
+    ],
+    "title": "Linha dos textos"
+  },
+  // TEXTO INTRO
+  "rich-text#intro-pq-comprar": {
+    "props": {
+      "blockClass": "intro-pq-comprar",
+      "text": "por que comprar na"
+    },
+    "title": "Texto introdução"
+  },
+  // TEXTO PRINCIPAL TITULO
+  "rich-text#stermax-health-pq-comprar": {
+    "props": {
+      "blockClass": "stermaxhealth-pq-comprar",
+      "text": "stermax health?"
+    },
+    "title": "Titulo"
+  },
+  // LINHA DA IMAGEM E BALÃO
+  "flex-layout.row#linha-imagem-texto": {
+    "props": {
+      "blockClass": "linha-imagem-texto-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-autoclave-pq-comprar",
+      "rich-text#balao-pq-comprar"
+    ]
+  },
+  // IMAGEM AUTOCLAVE desktop
+  "image#imagem-autoclave-pq-comprar": {
+    "props": {
+      "blockClass": "image-autoclave-pq-comprar",
+      "src": "assets/por-que-comprar/desktop/vida-75l-tampa-aberta-frontal.webp",
+      "alt": "Autoclave"
+    },
+    "title": "Imagem autoclave tampa aberta desktop"
+  },
+  // TEXTO DO BALÃO
+  "rich-text#balao-pq-comprar": {
+    "props": {
+      "blockClass": "balao-pq-comprar",
+      "text": "**Segurança, Tecnologia e Confiança:** Descubra por que a Stermax Health é a escolha certa para sua clínica!"
+    },
+    "title": "Texto balão"
+  },
+  // ==========================
+  // LINHA CERTIFICADOS
+  // ==========================
+  "flex-layout.row#linha-certificados-pq-comprar": {}
+}

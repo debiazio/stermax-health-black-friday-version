@@ -16,6 +16,9 @@
   },
   "store.custom#manuais":{
     "path": "/manuais"
+  },
+  "store.custom#por-que-comprar": {
+    "path": "/por-que-comprar"
   }
 
 }

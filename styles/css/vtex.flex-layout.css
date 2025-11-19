@@ -1,3 +1,36 @@
+.flexRowContent--linha-mobile-banner-pq-comprar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.flexRowContent--linha-imagem-texto-pq-comprar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexRowContent--linha-textos-pq-comprar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--linha-banner-inicial {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow--linha-banner-inicial {
+  background-image: url(assets/por-que-comprar/desktop/fundo-sem-transp-lateral.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+
 /* quem somos  */
 .flexRowContent--linha-seja-bemvindo {
   display: flex;

@@ -1,9 +1,9 @@
 {
-  "vtex.menu@2.x:menu#websites": {
-    "children": [
-      "menu-item#shop"
-    ]
-  },
+  // "vtex.menu@2.x:menu#websites": {
+  //   "children": [
+  //     "menu-item#shop"
+  //   ]
+  // },
   "menu-item#shop": {
     "props": {
       "id": "menu-item-shop",
