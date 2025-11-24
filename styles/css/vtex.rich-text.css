@@ -1,11 +1,26 @@
+.flexRowContent--linha-titulo-original {
+  display: flex;
+  align-items: center;
+}
+
+
+.paragraph--titulo-original {
+  font-family: "fraunces-regular";
+  font-size: 36px;
+  color: #505050;
+  margin: 0;
+  white-space: nowrap;
+}
+
+
 .container--titulo-cronograma,
 .container--subtitulo-cronograma,
-.container--conteudo-cronograma{
+.container--conteudo-cronograma {
   display: flex;
   justify-content: flex-end;
 }
 
-.paragraph--titulo-cronograma{
+.paragraph--titulo-cronograma {
   color: #574D41;
   font-family: "fraunces-regular";
   font-size: 45px;
@@ -14,7 +29,7 @@
   margin: 0;
 }
 
-.paragraph--subtitulo-cronograma{
+.paragraph--subtitulo-cronograma {
   color: #574D41;
   font-family: "fraunces-regular";
   font-size: 27px;
@@ -23,7 +38,7 @@
   margin: 0;
 }
 
-.paragraph--conteudo-cronograma{
+.paragraph--conteudo-cronograma {
   font-family: "jost-regular";
   font-size: 20px;
   text-align: right;
@@ -735,18 +750,18 @@
 
 
 @media only screen and (max-width: 1000px) {
-  
-  .paragraph--titulo-cronograma{
-  font-size: 22px;
-}
 
-.paragraph--subtitulo-cronograma{
-  font-size: 14px;
-}
+  .paragraph--titulo-cronograma {
+    font-size: 22px;
+  }
 
-.paragraph--conteudo-cronograma{
-  font-size: 12px;
-}
+  .paragraph--subtitulo-cronograma {
+    font-size: 14px;
+  }
+
+  .paragraph--conteudo-cronograma {
+    font-size: 12px;
+  }
 
 
   .container--texto-selos-pq-comprar {

@@ -4,7 +4,8 @@
       "responsive-layout.desktop#banner-inicial",
       "responsive-layout.mobile#banner-inicial",
       "flex-layout.row#linha-certificados-pq-comprar",
-      "flex-layout.row#cronologia"
+      "flex-layout.row#cronologia",
+      "flex-layout.row#stermax-original"
     ]
   },
   // ====================
@@ -203,6 +204,165 @@
     "props": {
       "blockClass": "conteudo-cronograma",
       "text": "A Stermax Health combina tradição, inovação e credibilidade. Com mais de 30 anos de experiência na fabricação de autoclaves horizontais, nossa marca é sinônimo de qualidade, confiança e suporte especializado."
+    }
+  },
+  //  =========================
+  // O QUE SÓ A STERMAX OFERECE
+  // ==========================
+  "flex-layout.row#stermax-original": {
+    "props": {
+      "blockClass": "linha-stermax-original",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-titulo-original",
+      "flex-layout.row#linha-imagens-botoes-original"
+    ]
+  },
+  // LINHA TITULO ORIGINAL
+  "flex-layout.row#linha-titulo-original": {
+    "props": {
+      "blockClass": "linha-titulo-original",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-parte1-original",
+      "image#logo-stermax-original",
+      "rich-text#titulo-parte2-original"
+    ]
+  },
+  // TEXTO PRÉ
+  "rich-text#titulo-parte1-original": {
+    "props": {
+      "blockClass": "titulo-original",
+      "text": "O que só a "
+    }
+  },
+  // IMAGEM LOGO
+  "image#logo-stermax-original": {
+    "props": {
+      "blockClass": "img-logo-original",
+      "alt": "Logo stermaxhealth",
+      "src": "assets/por-que-comprar/desktop/stx-original.webp"
+    }
+  },
+  // TEXTO POS
+  "rich-text#titulo-parte2-original": {
+    "props": {
+      "blockClass": "titulo-original",
+      "text": "oferece para você"
+    }
+  },
+  "flex-layout.row#linha-imagens-botoes-original": {
+    "props": {
+      "blockClass": "linha-imagens-botoes-original",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#autoclave-original",
+      "flex-layout.col#botoes-original"
+    ]
+  },
+  // COLUNA IMAGEM AUTOCLAVE
+  "flex-layout.col#autoclave-original": {
+    "props": {
+      "blockClass": "coluna-img-autoclave",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#img-autoclave-original"
+    ]
+  },
+  // IMAGEM AUTOCLAVE
+  "image#img-autoclave-original": {
+    "props": {
+      "blockClass": "img-autoclave-original",
+      "alt": "Autoclave",
+      "src": "assets/por-que-comprar/desktop/VIDA 60L TAMPA ABERTA.876 1.webp"
+    }
+  },
+  "flex-layout.col#botoes-original": {
+    "props": {
+      "blockClass": "coluna-botoes-original",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#iso+maior",
+      "flex-layout.row#fabrica+suporte",
+      "flex-layout.row#consultoria+atendimento"
+    ]
+  },
+  "flex-layout.row#iso+maior": {
+    "props": {
+      "blockClass": "img-botoes-original",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#iso",
+      "image#maior"
+    ]
+  },
+  "flex-layout.row#fabrica+suporte": {
+    "props": {
+      "blockClass": ["img-botoes-original", "img-botoes-original-meio"],
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#fabrica",
+      "image#suporte"
+    ]
+  },
+  "flex-layout.row#consultoria+atendimento": {
+    "props": {
+      "blockClass": "img-botoes-original",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#consultor",
+      "image#atendimento"
+    ]
+  },
+  "image#iso": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/iso.webp"
+    }
+  },
+  "image#maior": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/maior-rede.webp"
+    }
+  },
+  "image#fabrica": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/compra-direta.webp"
+    }
+  },
+  "image#suporte": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/suporte.webp"
+    }
+  },
+  "image#consultor": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/consultoria.webp"
+    }
+  },
+  "image#atendimento": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/atendimento.webp"
     }
   }
 }

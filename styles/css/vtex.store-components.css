@@ -1,3 +1,9 @@
+.imageElement--img-logo-original {
+  width: 366px;
+  height: 36px;
+  margin: 0 10px;
+}
+
 .imageElement--imagem-cronograma {
   position: relative;
   top: -70px;
@@ -17,7 +23,7 @@
 
 .imageElement--image-autoclave-pq-comprar:hover {
   transition: all 0.4s ease;
-  margin-right: 35px;
+  margin-right: 55px;
 }
 
 .imageElement--image-stx-logo-quem-somos {
