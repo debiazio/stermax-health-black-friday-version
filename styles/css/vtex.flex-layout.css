@@ -1,3 +1,7 @@
+.flexRow--linha-certificados-pq-comprar{
+  padding-top: 30px;
+}
+
 .flexRow--linha-textos-cronograma {
   display: flex;
   flex-direction: column;
@@ -35,6 +39,8 @@
 }
 
 .flexRowContent--linha-imagem-texto-pq-comprar {
+  position: relative;
+  top: 35px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -51,13 +57,20 @@
   flex-direction: column;
 }
 
-.flexRow--linha-banner-inicial {
-  background-image: url(assets/por-que-comprar/desktop/fundo-sem-transp-lateral.webp);
-  background-position: center;
+.flexRowContent--linha-banner-inicial {
+  margin-top: 50px;
+  border-radius: 50px;
+  background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 50px;
+
+  background-image:
+    url(assets/por-que-comprar/desktop/Fundo-transparente.webp),
+    linear-gradient(to right, rgba(223, 212, 196, 1), rgba(181, 207, 226, 1));
+
 }
+
+
 
 
 /* quem somos  */
@@ -1111,7 +1124,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .flexRowContent--linha-textos-cronograma{
+  .flexRowContent--linha-textos-cronograma {
     padding: 0 25px;
   }
 
