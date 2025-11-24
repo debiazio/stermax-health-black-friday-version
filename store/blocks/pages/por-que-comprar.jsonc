@@ -3,19 +3,19 @@
     "children": [
       "responsive-layout.desktop#banner-inicial",
       "responsive-layout.mobile#banner-inicial",
-      "flex-layout.row#linha-certificados-pq-comprar"
+      "flex-layout.row#linha-certificados-pq-comprar",
+      "flex-layout.row#cronologia"
     ]
   },
   // ====================
   // linha banner inicial
   // ====================
-  "responsive-layout.mobile#banner-inicial":{
+  "responsive-layout.mobile#banner-inicial": {
     "children": [
       "flex-layout.row#linha-mobile-banner-pq-comprar"
-
     ]
   },
-  "flex-layout.row#linha-mobile-banner-pq-comprar":{
+  "flex-layout.row#linha-mobile-banner-pq-comprar": {
     "props": {
       "blockClass": "linha-mobile-banner-pq-comprar",
       "colSizing": "auto"
@@ -24,14 +24,14 @@
       "image#banner-inicial-mobile"
     ]
   },
-  "image#banner-inicial-mobile":{
+  "image#banner-inicial-mobile": {
     "props": {
       "blockClass": "img-mobile-banner-inicial",
       "src": "assets/por-que-comprar/mobile/mobile.webp",
       "alt": "Por que comprar Stermax Health"
     }
   },
-  "responsive-layout.desktop#banner-inicial":{
+  "responsive-layout.desktop#banner-inicial": {
     "children": [
       "flex-layout.row#banner-inicial"
     ]
@@ -106,5 +106,103 @@
   // ==========================
   // LINHA CERTIFICADOS
   // ==========================
-  "flex-layout.row#linha-certificados-pq-comprar": {}
+  "flex-layout.row#linha-certificados-pq-comprar": {
+    "props": {
+      "blockClass": "linha-certificados-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#textos-pq-comprar"
+      // "flex-layout.col#img-pq-comprar"
+    ]
+  },
+  // COLUNA TEXTOS PQ COMPRAR
+  "flex-layout.col#textos-pq-comprar": {
+    "props": {
+      "blockClass": "coluna-textos-pq-comprar",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-selos-pq-comprar",
+      "rich-text#texto-selos-pq-comprar",
+      "link#botao-consultor-pq-comprar"
+    ]
+  },
+  // TEXTOS
+  // TITULO
+  "rich-text#titulo-selos-pq-comprar": {
+    "props": {
+      "blockClass": "titulo-selos-pq-comprar",
+      "text": "Autoclaves Certificadas para\n Quem Não Pode Errar"
+    }
+  },
+  // CONTEUDO
+  "rich-text#texto-selos-pq-comprar": {
+    "props": {
+      "blockClass": "texto-selos-pq-comprar",
+      "text": "Mais de 30 anos de experiência, **certificação ANVISA e ISO**\n internacional e suporte completo para profissionais da saúde."
+    }
+  },
+  // LINK
+  "link#botao-consultor-pq-comprar": {
+    "props": {
+      "blockClass": "link-selos-pq-comprar",
+      "href": "https://wa.me/5541999710062",
+      "label": "FALE COM UM CONSULTOR"
+    }
+  },
+  //  =============================
+  // linha cronologia
+  //  =============================
+  "flex-layout.row#cronologia": {
+    "props": {
+      "blockClass": "linha-cronograma",
+      "fullWidth": false
+    },
+    "children": [
+      "image#img-cronograma",
+      "flex-layout.row#linha-textos-cronograma"
+    ]
+  },
+  // IMAGEM DA CRONOLOGIA
+  "image#img-cronograma": {
+    "props": {
+      "blockClass": "imagem-cronograma",
+      "alt": "cronologia",
+      "src": "assets/por-que-comprar/desktop/cronograma-desktop.webp"
+    }
+  },
+  // LINHA TEXTOS CRONOGRAMA
+  "flex-layout.row#linha-textos-cronograma": {
+    "props": {
+      "blockClass": "linha-textos-cronograma",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-cronograma",
+      "rich-text#subtitulo-cronograma",
+      "rich-text#conteudo-cronograma"
+    ]
+  },
+  // TITULO
+  "rich-text#titulo-cronograma": {
+    "props": {
+      "blockClass": "titulo-cronograma",
+      "text": "Mais de Três Décadas"
+    }
+  },
+  // SUBTITULO
+  "rich-text#subtitulo-cronograma": {
+    "props": {
+      "blockClass": "subtitulo-cronograma",
+      "text": "Liderando o Mercado de Biossegurança"
+    }
+  },
+  // CONTEUDO
+  "rich-text#conteudo-cronograma": {
+    "props": {
+      "blockClass": "conteudo-cronograma",
+      "text": "A Stermax Health combina tradição, inovação e credibilidade. Com mais de 30 anos de experiência na fabricação de autoclaves horizontais, nossa marca é sinônimo de qualidade, confiança e suporte especializado."
+    }
+  }
 }

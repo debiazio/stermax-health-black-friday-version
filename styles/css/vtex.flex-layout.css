@@ -1,4 +1,33 @@
-.flexRowContent--linha-mobile-banner-pq-comprar{
+.flexRow--linha-textos-cronograma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRow--linha-cronograma {
+  background-color: #F8F7F5;
+  margin-top: 130px;
+}
+
+.flexRowContent--linha-textos-cronograma {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCol--coluna-textos-pq-comprar {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--linha-certificados-pq-comprar {
+  background-image: url(assets/por-que-comprar/desktop/selos-anvisa-iso.webp);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 477px;
+}
+
+.flexRowContent--linha-mobile-banner-pq-comprar {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1082,6 +1111,19 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRowContent--linha-textos-cronograma{
+    padding: 0 25px;
+  }
+
+  .flexCol--coluna-textos-pq-comprar {
+    padding: 25px;
+  }
+
+  .flexRowContent--linha-certificados-pq-comprar {
+    min-height: 50vw;
+    background-position-x: 120%;
+  }
+
   .flexRowContent--linha-seja-bemvindo {
     padding-top: 50px;
     padding-bottom: 50px;

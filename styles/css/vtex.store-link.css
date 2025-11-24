@@ -1,6 +1,16 @@
+.link--link-selos-pq-comprar {
+  text-decoration: none;
+  color: white;
+  background-color: #1F7ECA;
+  padding: 12px 30px;
+  border-radius: 100px;
+  margin: 10px 0;
+  font-family: "fraunces-regular";
+  font-size: 24px;
+}
 
 /* footer */
-.link--link-footer{
+.link--link-footer {
   text-decoration: none;
   color: #fff;
   margin-top: 18px;
@@ -51,12 +61,16 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 1000px){
-  .link--link-banner-quarto{
+@media screen and (max-width: 1000px) {
+  .link--link-selos-pq-comprar {
+    font-size: 12px;
+  }
+
+  .link--link-banner-quarto {
     font-size: 9px;
   }
 
-  .label--footer-links{
+  .label--footer-links {
     font-size: 10px;
     width: max-content;
   }

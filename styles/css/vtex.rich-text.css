@@ -1,3 +1,62 @@
+.container--titulo-cronograma,
+.container--subtitulo-cronograma,
+.container--conteudo-cronograma{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.paragraph--titulo-cronograma{
+  color: #574D41;
+  font-family: "fraunces-regular";
+  font-size: 45px;
+  font-weight: 700;
+  text-align: right;
+  margin: 0;
+}
+
+.paragraph--subtitulo-cronograma{
+  color: #574D41;
+  font-family: "fraunces-regular";
+  font-size: 27px;
+  font-weight: 700;
+  text-align: right;
+  margin: 0;
+}
+
+.paragraph--conteudo-cronograma{
+  font-family: "jost-regular";
+  font-size: 20px;
+  text-align: right;
+  margin: 22px 0;
+}
+
+.paragraph--titulo-selos-pq-comprar {
+  font-family: "fraunces-regular";
+  font-size: 40px;
+  font-weight: 600;
+  color: #574D41;
+  margin: 0;
+}
+
+
+.paragraph--texto-selos-pq-comprar {
+  font-family: "jost-regular";
+  font-size: 22px;
+  font-weight: 400;
+  color: #686868;
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+.strong--texto-selos-pq-comprar {
+  font-weight: 700;
+}
+
+
+.container--balao-pq-comprar {
+  z-index: 2;
+}
+
 .paragraph--balao-pq-comprar {
   background-color: white;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -7,10 +66,8 @@
   font-size: 20px;
   font-weight: 500;
   color: #777777;
-  margin-left: -50px;
+  margin-left: 80px;
   max-width: 60%;
-
-  /* animação suave */
   transition: all 0.2s ease;
 }
 
@@ -678,6 +735,34 @@
 
 
 @media only screen and (max-width: 1000px) {
+  
+  .paragraph--titulo-cronograma{
+  font-size: 22px;
+}
+
+.paragraph--subtitulo-cronograma{
+  font-size: 14px;
+}
+
+.paragraph--conteudo-cronograma{
+  font-size: 12px;
+}
+
+
+  .container--texto-selos-pq-comprar {
+    max-width: 50vw;
+  }
+
+  .paragraph--titulo-selos-pq-comprar {
+    font-size: 18px;
+  }
+
+  .paragraph--texto-selos-pq-comprar {
+    font-size: 12px;
+    margin: 15px 0;
+    padding-bottom: 24px;
+  }
+
   .paragraph--titulo-texto-seja-bemvindo {
     font-size: 18px;
   }
