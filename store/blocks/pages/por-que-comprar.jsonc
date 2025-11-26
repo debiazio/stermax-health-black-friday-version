@@ -6,7 +6,8 @@
       "flex-layout.row#linha-certificados-pq-comprar",
       "flex-layout.row#cronologia",
       "flex-layout.row#stermax-original",
-      "flex-layout.row#milhares-confiam"
+      "flex-layout.row#milhares-confiam",
+      "flex-layout.row#pronto-para"
     ]
   },
   // ====================
@@ -391,6 +392,83 @@
     "props": {
       "text": "De consultórios odontológicos a laboratórios veterinários, nossa tecnologia garante eficiência e biossegurança para quem não pode errar.",
       "blockClass": "texto-milhares-confiam"
+    }
+  },
+  // =====================
+  // pronto para levar seguranca
+  // ========================
+  "flex-layout.row#pronto-para":{
+    "props": {
+      "blockClass": "linha-pronto-para",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-texto+botao",
+      "flex-layout.col#coluna-imagem-pronto-para"
+    ]
+  },
+  // COLUNA TEXTO E BOTAO ORCAMENTO
+  "flex-layout.col#coluna-texto+botao":{
+    "props": {
+      "blockClass": "coluna-texto-botao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#texto-pronto-para",
+      "flex-layout.row#linha-solicitar-rocamento-pronto-para"
+    ]
+  },
+  "rich-text#texto-pronto-para":{
+    "props": {
+      "blockClass": "texto-pronto-para",
+      "text": "Pronto para Levar Segurança e\n Tecnologia para Sua Clínica?"
+    }
+  },
+  "flex-layout.row#linha-solicitar-rocamento-pronto-para":{
+    "props": {
+      "blockClass": "linha-orcamento-flechas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#flecha-esquerda-pronto-para",
+      "link#solicitar-orcamento-pronto-para",
+      "image#flecha-direita-pronto-para"
+
+    ]
+  },
+  "image#flecha-esquerda-pronto-para":{
+    "props": {
+      "src": "assets/por-que-comprar/desktop/flexha-dir.webp",
+      "blockClass": "flecha-esquerda-pronto-para"
+    }
+  },
+  "link#solicitar-orcamento-pronto-para":{
+    "props": {
+      "blockClass": "link-orcamento-pronto-para",
+      "href": "https://wa.me/5541999710062",
+      "label": "solicitar orçamento agora"
+    }
+  },
+  "image#flecha-direita-pronto-para":{
+    "props": {
+      "src": "assets/por-que-comprar/desktop/flexha-esq.webp",
+      "blockClass": "flecha-direita-pronto-para"
+    }
+  },
+  // COLUNA IMAGENS
+  "flex-layout.col#coluna-imagem-pronto-para":{
+    "props": {
+      "blockClass": "img-autoclave-pronto-para"
+    },
+    "children": [
+      "image#autoclave-pronto-para"
+    ]
+  },
+  "image#autoclave-pronto-para":{
+    "props": {
+      "src": "assets/por-que-comprar/desktop/awdwadawdwadawdawdawda.webp",
+      "alt": "Autoclave",
+      "blockClass": "image-pronto-para"
     }
   }
 }

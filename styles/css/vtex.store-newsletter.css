@@ -168,7 +168,6 @@
   width: 95px !important;
   border-radius: 35px;
   text-transform: uppercase;
-  display: flex;
 }
 
 @media screen and (max-width: 1000px) {}

@@ -1,7 +1,17 @@
+.paragraph--texto-pronto-para{
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+}
+
+
 .paragraph--titulo-milhares-confiam {
   font-size: 36px;
   font-family: "fraunces-regular";
-  font-weight: 600;
+  font-weight: 400;
   color: #000000;
   text-align: center;
   margin: 0;
@@ -771,6 +781,9 @@
 
 
 @media only screen and (max-width: 1000px) {
+  .paragraph--texto-pronto-para{
+    font-size: 20px;
+  }
   .container--texto-milhares-confiam{
     max-width: unset;
   }

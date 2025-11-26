@@ -1,3 +1,15 @@
+.imageElement--flecha-direita-pronto-para {
+  position: relative;
+  margin-left: 40px;
+  top: -32px;
+}
+
+.imageElement--flecha-esquerda-pronto-para {
+  position: relative;
+  top: -75px;
+  margin-right: 30px;
+}
+
 .imageElement--img-logo-original {
   width: 366px;
   height: 36px;
@@ -414,6 +426,18 @@
 
 
 @media screen and (max-width: 1024px) {
+  .imageElement--flecha-direita-pronto-para {
+    position: relative;
+    top: -75px;
+    margin-right: 25px;
+  }
+
+  .imageElement--flecha-esquerda-pronto-para {
+    position: relative;
+    top: -75px;
+    margin-left: 25px;
+  }
+
   .imageElement--imagem-cronograma {
     top: -50px;
     padding-right: 30px;
