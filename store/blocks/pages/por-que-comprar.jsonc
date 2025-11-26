@@ -5,7 +5,8 @@
       "responsive-layout.mobile#banner-inicial",
       "flex-layout.row#linha-certificados-pq-comprar",
       "flex-layout.row#cronologia",
-      "flex-layout.row#stermax-original"
+      "flex-layout.row#stermax-original",
+      "flex-layout.row#milhares-confiam"
     ]
   },
   // ====================
@@ -363,6 +364,33 @@
       "blockClass": "image-botoes-original",
       "alt": "Imagens stermax",
       "src": "assets/por-que-comprar/desktop/atendimento.webp"
+    }
+  },
+  // =======================
+  // MILHARES CONFIAM
+  // =========================
+  "flex-layout.row#milhares-confiam":{
+    "props": {
+      "blockClass": "linha-milhares-comfiam",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-milhares-profissionais",
+      "rich-text#texto-milhares-profissionais"
+    ]
+  },
+  // TITULO MILHARES
+  "rich-text#titulo-milhares-profissionais":{
+    "props": {
+      "text": "Milhares de Clínicas e Profissionais\n já Confiam na Stermax Health",
+      "blockClass": "titulo-milhares-confiam"
+    }
+  },
+  //  TEXTO MILHARES
+  "rich-text#texto-milhares-profissionais":{
+    "props": {
+      "text": "De consultórios odontológicos a laboratórios veterinários, nossa tecnologia garante eficiência e biossegurança para quem não pode errar.",
+      "blockClass": "texto-milhares-confiam"
     }
   }
 }

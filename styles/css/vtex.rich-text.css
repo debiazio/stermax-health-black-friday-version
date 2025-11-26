@@ -1,8 +1,29 @@
+.paragraph--titulo-milhares-confiam {
+  font-size: 36px;
+  font-family: "fraunces-regular";
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+}
+
+.container--texto-milhares-confiam {
+  max-width: 60vw;
+}
+
+.paragraph--texto-milhares-confiam {
+  font-size: 24px;
+  font-family: "jost-regular";
+  font-weight: 400;
+  color: #5D5D5D;
+  text-align: center;
+  margin: 0;
+}
+
 .flexRowContent--linha-titulo-original {
   display: flex;
   align-items: center;
 }
-
 
 .paragraph--titulo-original {
   font-family: "fraunces-regular";
@@ -750,6 +771,17 @@
 
 
 @media only screen and (max-width: 1000px) {
+  .container--texto-milhares-confiam{
+    max-width: unset;
+  }
+
+  .paragraph--titulo-milhares-confiam {
+    font-size: 18px;
+  }
+
+  .paragraph--texto-milhares-confiam {
+    font-size: 12px;
+  }
 
   .paragraph--titulo-cronograma {
     font-size: 22px;
