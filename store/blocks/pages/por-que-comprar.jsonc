@@ -3,7 +3,8 @@
     "children": [
       "responsive-layout.desktop#banner-inicial",
       "responsive-layout.mobile#banner-inicial",
-      "flex-layout.row#linha-certificados-pq-comprar",
+      "responsive-layout.desktop#certificados-desktop",
+      "responsive-layout.mobile#certificados-mobile",
       // "responsive-layout.desktop#selos-teste",
       "flex-layout.row#cronologia",
       "flex-layout.row#stermax-original",
@@ -110,6 +111,63 @@
   // ==========================
   // LINHA CERTIFICADOS
   // ==========================
+  // mobile
+  "responsive-layout.mobile#certificados-mobile":{
+    "children": [
+      "flex-layout.row#linha-certificados-pq-comprar-mobile"
+    ]
+  },
+  "flex-layout.row#linha-certificados-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "linha-certificados-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#textos-pq-comprar-mobile"
+      // "flex-layout.col#img-pq-comprar"
+    ]
+  },
+  // COLUNA TEXTOS PQ COMPRAR
+  "flex-layout.col#textos-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "coluna-textos-pq-comprar",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-selos-pq-comprar-mobile",
+      "rich-text#texto-selos-pq-comprar-mobile",
+      "link#botao-consultor-pq-comprar-mobile"
+    ]
+  },
+  // TEXTOS
+  // TITULO
+  "rich-text#titulo-selos-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "titulo-selos-pq-comprar",
+      "text": "Autoclaves Certificadas para\n Quem Não Pode Errar"
+    }
+  },
+  // CONTEUDO
+  "rich-text#texto-selos-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "texto-selos-pq-comprar",
+      "text": "Mais de 30 anos de experiência, **certificação ANVISA e ISO**\n internacional e suporte completo para profissionais da saúde."
+    }
+  },
+  // LINK
+  "link#botao-consultor-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "link-selos-pq-comprar",
+      "href": "https://wa.me/5541999710062",
+      "label": "FALE COM UM CONSULTOR"
+    }
+  },
+  // desktop
+  "responsive-layout.desktop#certificados-desktop":{
+    "children": [
+      "flex-layout.row#linha-certificados-pq-comprar"
+    ]
+  },
   "flex-layout.row#linha-certificados-pq-comprar": {
     "props": {
       "blockClass": "linha-certificados-pq-comprar",

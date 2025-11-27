@@ -1186,6 +1186,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRowContent--linha-certificados-pq-comprar {
+    background-image: url(assets/por-que-comprar/mobile/selos-anvisa-iso.webp);
+  }
+
   .flexCol--coluna-img-pq-comprar {
     margin-right: unset;
   }
