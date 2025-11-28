@@ -1,3 +1,7 @@
+.styledLinkContainer {
+  margin: 0 15px;
+}
+
 .menuContainerNav {
   width: 100%;
 }
@@ -15,11 +19,19 @@
 
 
 @media screen and (max-width: 1000px) {
-  .styledLinkContent {
-    font-size: 6px;
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 0 15px;
   }
 
-  .styledLinkContainer{
+  .styledLinkContent {
+    color: black;
+    font-size: 22px;
+  }
+
+  .styledLinkContainer {
     margin: 0 2px;
     padding: 0;
   }

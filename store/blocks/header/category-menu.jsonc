@@ -6,7 +6,8 @@
     "children": [
       "menu-item#quem-somos",
       "menu-item#loja",
-      "menu-item#contato"
+      "menu-item#contato",
+      "menu-item#por-que-comprar"
     ]
   },
   "menu-item#loja": {
@@ -107,8 +108,22 @@
         "type": "internal",
         "href": "/contato",
         "noFollow": true,
-        "tagTitle": "contato",
+        "tagTitle": "Contato",
         "text": "CONTATO"
+      }
+    }
+  },
+  "menu-item#por-que-comprar": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/por-que-comprar",
+        "noFollow": true,
+        "tagTitle": "Por que comprar",
+        "text": "POR QUE COMPRAR"
       }
     }
   },

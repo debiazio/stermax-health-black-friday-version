@@ -44,9 +44,7 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#quem-somos",
-      "menu-item#loja",
-      "menu-item#contato"
+      "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
       "orientation": "vertical"
